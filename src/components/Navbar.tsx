@@ -1,6 +1,6 @@
 export function Navbar() {
   return (
-    <nav>
+    <nav className="Navbar">
       <ul>
         <li>blablablablabla</li>
         <li>blablablablabla</li>
