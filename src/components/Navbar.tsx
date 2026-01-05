@@ -2,11 +2,11 @@ export function Navbar() {
   return (
     <nav>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>blablablablabla</li>
+        <li>blablablablabla</li>
+        <li>blablablablabla</li>
+        <li>blablablablabla</li>
+        <li>blablablablabla</li>
       </ul>
     </nav>
   );
