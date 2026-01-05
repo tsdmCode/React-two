@@ -1,13 +1,11 @@
 export function Navbar() {
+  const myNameIs = ['Mogens', 'Jørgen', 'Shakezula', 'Frylock', 'Meatwad', 'Carl Brutananadilewski'];
+
+  const renderedNames = myNameIs.map((name) => <li>{name}</li>);
+
   return (
     <nav className="Navbar">
-      <ul>
-        <li>blablablablabla</li>
-        <li>blablablablabla</li>
-        <li>blablablablabla</li>
-        <li>blablablablabla</li>
-        <li>blablablablabla</li>
-      </ul>
+      <ul>{renderedNames}</ul>
     </nav>
   );
 }
