@@ -4,6 +4,7 @@ export function Main() {
       <header>
         <h2>Flot main content? Du ved vi har det</h2>
       </header>
+      <hr />
       <article>
         <h3>Lokal Mand Skælder Sky Ud</h3>
         <p>
