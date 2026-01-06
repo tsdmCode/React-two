@@ -1,0 +1,23 @@
+.mainStyle {
+  background-color: antiquewhite;
+  border-radius: 25px;
+  padding: 1rem;
+  margin-left: 1rem;
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.articleStyle {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}

@@ -1,11 +1,13 @@
+import style from './main.module.scss';
+
 export function Main() {
   return (
-    <main>
+    <main className={style.mainStyle}>
       <header>
         <h2>Flot main content? Du ved vi har det</h2>
       </header>
       <hr />
-      <article>
+      <article className={style.articleStyle}>
         <h3>Lokal Mand Skælder Sky Ud</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus tempore blanditiis optio quo? Voluptas
