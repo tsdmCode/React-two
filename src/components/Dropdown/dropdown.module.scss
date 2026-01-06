@@ -1,25 +1,50 @@
 .names {
-  visibility: hidden;
+  background-color: lightcyan;
   list-style-type: none;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0;
+  width: 100%;
+
+  li {
+    padding: 0.5rem;
+  }
 }
 
 a {
   text-decoration: none;
 }
 
-.myDrop:hover .names {
-  visibility: visible;
+.burger {
+  display: none;
 }
+
+// .myDrop:hover .names {
+//   visibility: visible;
+// }
 
 .myDrop {
   display: flex;
+}
+
+nav {
+  margin: 0;
 }
 
 @media (max-width: 600px) {
   .names,
   .myDrop {
     flex-direction: column;
+  }
+  .names {
+    visibility: hidden;
+  }
+  .burger {
+    display: block;
+  }
+
+  .myDrop:hover .names {
+    visibility: visible;
   }
 }

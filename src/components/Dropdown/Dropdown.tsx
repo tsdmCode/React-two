@@ -12,7 +12,7 @@ export function Dropdown() {
 
   return (
     <nav className={style.myDrop}>
-      <GiHamburgerMenu />
+      <GiHamburgerMenu className={style.burger} />
       <ul className={style.names}>{renderedNames}</ul>
     </nav>
   );
