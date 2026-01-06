@@ -1,0 +1,25 @@
+.names {
+  visibility: hidden;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.myDrop:hover .names {
+  visibility: visible;
+}
+
+.myDrop {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .names,
+  .myDrop {
+    flex-direction: column;
+  }
+}
