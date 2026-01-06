@@ -3,7 +3,11 @@ import style from './navbar.module.scss';
 export function Navbar() {
   const myNameIs = ['Mogens', 'Jørgen', 'Shakezula', 'Frylock', 'Meatwad', 'Carl Brutananadilewski'];
 
-  const renderedNames = myNameIs.map((name) => <li>{name}</li>);
+  const renderedNames = myNameIs.map((name) => (
+    <li>
+      <a href="#">{name}</a>
+    </li>
+  ));
 
   return (
     <nav className={style.Navbar}>

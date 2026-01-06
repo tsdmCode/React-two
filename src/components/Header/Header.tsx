@@ -1,4 +1,4 @@
-import { Navbar } from '../Navbar';
+import { Navbar } from '../Navbar/Navbar';
 import style from './header.module.scss';
 
 export function Header() {
