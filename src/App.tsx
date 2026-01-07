@@ -6,6 +6,7 @@ import { Dropdown } from './components/Dropdown/Dropdown';
 import { Greeter } from './components/Greeter/Greeter';
 import { DynamicHeader } from './components/DynamicHeader/DynamicHeader';
 import { List } from './components/List/List';
+import { Button } from './components/Button/Button';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         listHeader="Film"
         listItems={['Fear and Loathing in Las Vegas', 'Chungking Express', 'Jurassic Park', "Adam's Æbler", 'Snatch']}
       />
+      <Button action={() => alert('Hej 1')} size="small" theme="light" text="Prøv den her" />
+      <Button action={() => alert('Hej 2')} size="medium" theme="light" text="Nej prøv mig" />
+      <Button action={() => alert('Hej 3')} size="large" theme="dark" text="Jeg er størst og bedst" />
       <Footer />
     </>
   );
