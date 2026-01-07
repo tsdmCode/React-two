@@ -12,7 +12,7 @@ function App() {
     <>
       <Dropdown />
       <Header />
-      <DynamicHeader headerText="Velkommen til Sneed's Feed & Seed (Formerly Chuck's)" />
+      <DynamicHeader headerText="Props er cool" />
       <Main />
       <Greeter name="Mogens" />
       <List listHeader="Livretter" listItems={['Risengrød', 'Tortillas', 'Mixkebab', 'Durum', 'Pita']} />
